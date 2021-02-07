@@ -1,0 +1,52 @@
+site_name: 'Graphs and Systems Thinking'
+nav:
+  - Home: index.md
+  - Table of Contents: table-of-contents.md
+  - Part 1 Introduction:
+    - Forward: intro/forward.md
+    - Preface: intro/preface.md
+    - Acknowledgements: intro/acknowledgements.md
+    - About this book: intro/about-this-book.md
+    - Chapter 1 Introduction: intro/ch-01.md
+    - Chapter 2 Graphs: intro/ch-02.md
+    - Chapter 3 Systems Thinking: intro/ch-03.md
+    - Chapter 4 Title: intro/ch-04.md
+  - Part 2 Concepts:
+    - Chapter 5: concepts/ch-05.md
+  #  - Chapter X: concepts/graph.md
+  #  - Chapter X+1: concepts/graph.md
+  #- Pt 3 Case Studies:
+  - Part 3: Case Studies
+     - Chapter 9: case-studies/healthcare.md
+  - Glossary: glossary.md
+  - Colophon: colophon.md
+  - References: references.md
+  - Contact: contact.md
+
+site_description: 'Book on Graphs and Systems Thinking'
+site_author: 'Arun Batchu, Jon Herke, Dan McCreary, David Quimbly'
+repo_name: 'Link to GitHub'
+repo_url: 'https://github.com/dmccreary/graph-systems-thinking'
+
+edit_uri: 'blob/master/docs'
+theme:
+  name: material
+  logo: img/logo.png
+  favicon: img/favicon.png
+  palette:
+    primary: 'blue'
+    accent: 'yellow'
+  custom_dir: 'theme'
+  include_sidebar: true
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - codehilite:
+      linenums: true
+plugins:
+    - search
+markdown_extensions:
+  - codehilite:
+      linenums: true
