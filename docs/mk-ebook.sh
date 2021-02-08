@@ -20,7 +20,9 @@ cat \
   colophon.md \
   >full-book.md
 
-  pandoc full-book.md --metadata title="Graphs and Systems Thinking" -o /tmp/full-book.epub
+  sed 's/\.\.\/img/img/g' full-book.md > full-book2.md
+
+  pandoc full-book2.md --metadata title="Graphs and Systems Thinking" -o /tmp/full-book.epub
   echo "full book now available in /tmp/full-book.epub"
   open /tmp/full-book.epub
 
