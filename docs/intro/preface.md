@@ -8,4 +8,5 @@ What perspectives do we bring?
 
 Sample:
 
-https://livebook.manning.com/book/making-sense-of-nosql/preface/
+[Sample Preface](https://livebook.manning.com/book/making-sense-of-nosql/preface/)
+

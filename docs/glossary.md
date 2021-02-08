@@ -11,7 +11,9 @@ Within the context of EKGs, it is the region that should be modeled to give the 
 
 #### Graph Databases
 
-### ISO Definition
+#### Knowledge Representation
+
+#### ISO Definition
 A term definition that conforms to ISO/IEC 11179 metadata registry guidelines.
 
 * **Precise:** - The definition should have clear meaning and semantics using words with narrow definitions.

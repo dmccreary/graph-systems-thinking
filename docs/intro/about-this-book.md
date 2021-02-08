@@ -16,18 +16,21 @@ We value storytelling and the use of metaphors to help us communicate with non-t
 
 ## Book Structure
 
-Part 1...
-  Chapter 1: Introduction - what was once too expensive is now affordable.
+### Part 1: Intrduction
 
-  Chapter 2: Graphs
+Chapter 1: [Introduction](ch-01.md) - what was once too expensive is now affordable.
+
+  Chapter 2: [Graphs](ch-02.md)
   
-  Chapter 3: Systems Thinking
+  Chapter 3: [Systems Thinking](ch-03.md)
+
+  Chapter 4: [Title](ch-04.md)
 
 Part 2...
 
 Part 3...
 
-# Glossary
+# [Glossary](../glossary.md)
 
+# [References](../references.md)
 
-References
