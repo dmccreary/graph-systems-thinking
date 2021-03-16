@@ -515,6 +515,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#denormalized-data-model" class="md-nav__link">
+    Denormalized Data Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#dynamics" class="md-nav__link">
     Dynamics
   </a>
@@ -571,6 +578,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#influence-diagram" class="md-nav__link">
+    Influence Diagram
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#knowledge-representation" class="md-nav__link">
     Knowledge Representation
   </a>
@@ -609,6 +623,13 @@
           <li class="md-nav__item">
   <a href="#nonlinear" class="md-nav__link">
     Nonlinear
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normalized-data-models" class="md-nav__link">
+    Normalized Data Models
   </a>
   
 </li>
@@ -817,6 +838,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#denormalized-data-model" class="md-nav__link">
+    Denormalized Data Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#dynamics" class="md-nav__link">
     Dynamics
   </a>
@@ -873,6 +901,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#influence-diagram" class="md-nav__link">
+    Influence Diagram
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#knowledge-representation" class="md-nav__link">
     Knowledge Representation
   </a>
@@ -911,6 +946,13 @@
           <li class="md-nav__item">
   <a href="#nonlinear" class="md-nav__link">
     Nonlinear
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#normalized-data-models" class="md-nav__link">
+    Normalized Data Models
   </a>
   
 </li>
@@ -1042,6 +1084,12 @@
 <h4 id="balancing-loop">Balancing Loop</h4>
 <h4 id="causal-loop-diagrams">Causal Loop Diagrams</h4>
 <p>Diagrams that show the dynamic relationship of sub-components of Systems where changes in the state of any component have causal impacts on other components of the system.</p>
+<h4 id="denormalized-data-model">Denormalized Data Model</h4>
+<p>A data model that has been flattened to use multiple columns to represent different dimensions of the real world.</p>
+<ul>
+<li>Denormalized data is easier to load into relational databases</li>
+<li>Denormalized data may be more difficult to query</li>
+</ul>
 <h4 id="dynamics">Dynamics</h4>
 <h4 id="dynamic-equilibrium">Dynamic Equilibrium</h4>
 <h4 id="edge-of-chaos">Edge of Chaos</h4>
@@ -1059,6 +1107,9 @@
 <p>A database of items that is decomposed into vertices and edges, each of which have attributes.</p>
 <p>There are many types of graph databases that model the state of the world in different ways.  What many of them share in common is their ability to traverse relationships between items without </p>
 <h4 id="hierarchy">Hierarchy</h4>
+<h4 id="influence-diagram">Influence Diagram</h4>
+<p>A type of causal graph that shows how individuals or groups impact each other's thinking.
+<img alt="Influence Diagram" src="../img/influence-diagram.png" /></p>
 <h4 id="knowledge-representation">Knowledge Representation</h4>
 <h4 id="iso-definition">ISO Definition</h4>
 <p>A term definition that conforms to ISO/IEC 11179 metadata registry guidelines.</p>
@@ -1073,12 +1124,22 @@
 <h3 id="leverage-points">Leverage Points</h3>
 <p>Places in a system where a small change can lead to a large change in system behavior.</p>
 <h4 id="limiting-factor">Limiting Factor</h4>
+<p>A factor in a system that limits it ability to perform.</p>
+<ul>
+<li>Relational database JOIN performance has been a key limiting factor in creating precise real-world models within databases.</li>
+</ul>
 <h4 id="linear-relationship">Linear Relationship</h4>
 <h4 id="nonlinear">Nonlinear</h4>
 <p>In the field of systems dynamics, nonlinear refers to the fact that a small change in one component may result is a large changes in related component.</p>
 <p>Our brains need special training to understand the ways that nonlinear systems interact and to understand the long-term impact of nonlinear dynamics.</p>
 <p>For example, in ecology a small change in the level of carbon dioxide in the atmosphere may cause a large change in global temperature.</p>
 <p>In commerce, a small change in product quality may lead to poor reviews, lower recommendations and a dramatic drop in sales.</p>
+<h4 id="normalized-data-models">Normalized Data Models</h4>
+<p>Data models that faithfully model the complex relationships of the real world.</p>
+<ul>
+<li>When models capture the real-world accurately, they can be shared among many business units.</li>
+<li>Highly normalized data models don't scale well on older RDBMS technologies.</li>
+</ul>
 <h3 id="resilience">Resilience</h3>
 <p>The ability of systems to retain stable functionality under changing conditions.</p>
 <h4 id="reinforcing-loop">Reinforcing Loop</h4>
