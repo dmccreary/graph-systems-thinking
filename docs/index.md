@@ -2,7 +2,9 @@
 
 ![](../img/cover.png)
 
-Welcome to our book on Graphs and Systems Thinking. We hope you enjoy the book.
+Using Systems Thinking Accelerate Adoption of Enterprise Knowledge Graphs
+
+
 
 - Arun<br/>
 - Dan<br/>
