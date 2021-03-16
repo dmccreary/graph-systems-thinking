@@ -22,3 +22,11 @@ Ten Groups/Ten Standards -> Central Warehouse Fail -> Data Marts Too Expensive -
 
 Ten Groups -> Great Canonical Model -> Shared EKG -> Deep Insights -> More Marketshare
 
+## CIO Influence Diagram
+
+![](img/../../img/influence-diagram.png)
+
+## Low-Resolution Data Models
+* Data modeling team gets burned on slow JOIN performance
+* Try to denomalize data models to minimize JOINS
+

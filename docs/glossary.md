@@ -12,6 +12,12 @@ Archetypes are to systems what Patterns are to software.
 #### Causal Loop Diagrams
 Diagrams that show the dynamic relationship of sub-components of Systems where changes in the state of any component have causal impacts on other components of the system.
 
+#### Denormalized Data Model
+A data model that has been flattened to use multiple columns to represent different dimensions of the real world.
+
+* Denormalized data is easier to load into relational databases
+* Denormalized data may be more difficult to query
+
 #### Dynamics
 
 #### Dynamic Equilibrium
@@ -38,6 +44,9 @@ There are many types of graph databases that model the state of the world in dif
 
 #### Hierarchy
 
+#### Influence Diagram
+A type of causal graph that shows how individuals or groups impact each other's thinking.
+![Influence Diagram](img/influence-diagram.png)
 #### Knowledge Representation
 
 #### ISO Definition
@@ -55,6 +64,9 @@ The origin of these guidelines for ISO definition comes from work in the ISO/IEC
 Places in a system where a small change can lead to a large change in system behavior.
 
 #### Limiting Factor
+A factor in a system that limits it ability to perform.
+
+* Relational database JOIN performance has been a key limiting factor in creating precise real-world models within databases.
 
 #### Linear Relationship
 
@@ -67,6 +79,12 @@ Our brains need special training to understand the ways that nonlinear systems i
 For example, in ecology a small change in the level of carbon dioxide in the atmosphere may cause a large change in global temperature.
 
 In commerce, a small change in product quality may lead to poor reviews, lower recommendations and a dramatic drop in sales.
+
+#### Normalized Data Models
+Data models that faithfully model the complex relationships of the real world.
+
+* When models capture the real-world accurately, they can be shared among many business units.
+* Highly normalized data models don't scale well on older RDBMS technologies.
 
 ### Resilience
 The ability of systems to retain stable functionality under changing conditions.
