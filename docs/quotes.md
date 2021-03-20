@@ -1,5 +1,10 @@
 # Systems Thinking Quotes
 
+#### Structure and Behavior
+Once we see the relationship between structure and behavior, we can begin to understand how systems work, what makes them produce poor results, and how to shift them into better behavior patterns.
+
+- From Thinking in Systems by Donella H. Meadows
+
 #### Russell Ackoff in 1979
 Managers are not confronted with problems that are independent of each other, but with dynamic situations that consist of complex systems of changing problems that interact with each other. I call such situations messes. Problems are abstractions extracted from messes by analysis…. Managers do not solve problems; they manage messes
 
