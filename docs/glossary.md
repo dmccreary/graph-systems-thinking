@@ -19,8 +19,10 @@ A data model that has been flattened to use multiple columns to represent differ
 * Denormalized data may be more difficult to query
 
 #### Dynamics
+The change of system interconnections over time.
 
 #### Dynamic Equilibrium
+The stage in the evolution of a system where the flows between system components reaches a balancing point.
 
 #### Edge of Chaos
 A transition space between order and disorder that is hypothesized to exist within a wide variety of systems. This transition zone is a region of bounded instability that engenders a constant dynamic interplay between order and disorder.
@@ -36,6 +38,7 @@ A chain of events that begin when outputs of a component are routed back as inpu
 The time it takes for a stimulus to trigger events that return to impact the original source of the stimulus.
 
 #### Flow
+The migration of ideas, information or resources from one system component to other system components over time.
 
 #### Graph Database
 A database of items that is decomposed into vertices and edges, each of which have attributes.
@@ -43,6 +46,7 @@ A database of items that is decomposed into vertices and edges, each of which ha
 There are many types of graph databases that model the state of the world in different ways.  What many of them share in common is their ability to traverse relationships between items without 
 
 #### Hierarchy
+A systems diagram where material or information flows up and down a tree-like structure.
 
 #### Influence Diagram
 A type of causal graph that shows how individuals or groups impact each other's thinking.
@@ -60,7 +64,7 @@ A term definition that conforms to ISO/IEC 11179 metadata registry guidelines.
 
 The origin of these guidelines for ISO definition comes from work in the ISO/IEC 11179 Metadata Registry standards committee.
 
-### Leverage Points
+#### Leverage Points
 Places in a system where a small change can lead to a large change in system behavior.
 
 #### Limiting Factor
@@ -86,7 +90,7 @@ Data models that faithfully model the complex relationships of the real world.
 * When models capture the real-world accurately, they can be shared among many business units.
 * Highly normalized data models don't scale well on older RDBMS technologies.
 
-### Resilience
+#### Resilience
 The ability of systems to retain stable functionality under changing conditions.
 
 #### Reinforcing Loop
