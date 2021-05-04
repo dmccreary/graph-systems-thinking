@@ -1,14 +1,10 @@
 # Graphs and Systems Thinking
 
-![](../img/cover.png)
+![](img/cover.png)
 
-Using Systems Thinking Accelerate Adoption of Enterprise Knowledge Graphs
+Using systems thinking to accelerate the adoption of Enterprise Knowledge Graphs (EKGs)
 
+Dan McCreary
 
-
-- Arun<br/>
-- Dan<br/>
-- David<br/>
-- Jon<br/>
 
 
