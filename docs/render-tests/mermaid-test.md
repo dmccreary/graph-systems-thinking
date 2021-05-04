@@ -28,7 +28,7 @@ graph LR
 ```mermaid
 graph LR
     Start(Start)-->End(End)
-    style Start fill:green, stroke:black, stroke-width:2px, color:yellow
+    style Start fill:green, stroke:black, stroke-width:2px
     style End fill:#bbf, stroke:#f66, stroke-width:2px, color:#fff, stroke-dasharray: 5 5
     
 ```
