@@ -7,17 +7,17 @@ nav:
     - Preface: intro/preface.md
     - Acknowledgements: intro/acknowledgements.md
     - About this book: intro/about-this-book.md
-    - About the authors: intro/about-the-authors.md
+    - About the Authors: intro/about-the-authors.md
     - Chapter 1 Introduction: intro/ch-01.md
     - Chapter 2 Graphs: intro/ch-02.md
     - Chapter 3 Systems Thinking: intro/ch-03.md
     - Chapter 4 Title: intro/ch-04.md
   - Part 2 Concepts:
     - Chapter 5: concepts/ch-05.md
-  - Render Tests:
-    - render-tests/mermaid-test.md
-    - render-tests/state-diagram.md
-    - render-tests/influence-diagram.md
+  # - Render Tests:
+  #  - render-tests/mermaid-test.md
+  #  - render-tests/state-diagram.md
+  #  - render-tests/influence-diagram.md
   #  - Chapter X: concepts/graph.md
   #  - Chapter X+1: concepts/graph.md
   #- Pt 3 Case Studies:

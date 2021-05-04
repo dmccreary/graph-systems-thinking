@@ -8,6 +8,9 @@ Archetypes unify disciplines that have often been taught as separate things – 
 Archetypes are to systems what Patterns are to software.
 
 #### Balancing Loop
+A type of cause and effect interactions that counter a change with a push in the opposite direction.
+
+* Also known as: Negative feedback
 
 #### Causal Loop Diagrams
 Diagrams that show the dynamic relationship of sub-components of Systems where changes in the state of any component have causal impacts on other components of the system.
@@ -18,8 +21,11 @@ A data model that has been flattened to use multiple columns to represent differ
 * Denormalized data is easier to load into relational databases
 * Denormalized data may be more difficult to query
 
+#### Digital Twin
+A representation of a real-world item in a virtual world.  EKGs are a way to model real-world components that interact with each other.
+
 #### Dynamics
-The change of system interconnections over time.
+The change of component stocks and system interconnections over time.
 
 #### Dynamic Equilibrium
 The stage in the evolution of a system where the flows between system components reaches a balancing point.

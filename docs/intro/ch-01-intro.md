@@ -33,6 +33,6 @@ If you have been modeling data from many years, you have often been involved in
 
 ### New Assumption: Accurate Models of Real World Relationships
 
-## Topic 2
+## The God Graph
 
-## Topic 3
+[The God Graph Blog](https://dmccreary.medium.com/the-god-graph-d382525ba0ae)

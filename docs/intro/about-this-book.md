@@ -21,21 +21,22 @@ There is no programming or math background required for this book, although fami
 We value storytelling and the use of metaphors to help us communicate with non-technical staff.
 
 ## Book Structure
-The book is broken down into four parts.
+The book is broken down into three parts.
 
 ### Part 1: Introduction
 
-**Chapter 1: [Introduction](ch-01.md)** - what was once too expensive is now affordable.
-**Chapter 2: [Graphs](ch-02.md)** - Whare are enterprise knowledge graphs as why are they central to future organizational strategy.
-**Chapter 3: [Systems Thinking](ch-03.md)** - What is Systems Thinking?  Why is a good tool for EKG analysis?
-**Chapter 4: [Case Studies](ch-04.md)** - Case Studies 
+**Chapter 1: [Introduction](ch-01-intro.md)** - what was once too expensive is now affordable
+**Chapter 2: [Graphs](ch-02-graph.md)** - Where are enterprise knowledge graphs as why are they central to future organizational strategy
+**Chapter 3: [Systems Thinking](ch-03-systems.md)** - What is Systems Thinking?  Why is a good tool for EKG analysis?
+**Chapter 4: [Graph and Systems Thinking](ch-04-systems-graph.md)** - Applying Systems Thinking to Graph Adoption 
 
-### Part 2...
+### Part 2: Case Studies
+These will be detailed stories of how teams have used systems thinking to promote graph adoption.
 
+### Part 3: Advanced Concepts
+We will dive into advanced topics such as graph-based machine learning, cognitive bias and storytelling to promote good systems thinking best practices.
 
-Part 3...
+## [Glossary](../glossary.md)
 
-# [Glossary](../glossary.md)
-
-# [References](../references.md)
+## [References](../references.md)
 
