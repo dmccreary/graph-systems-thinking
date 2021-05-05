@@ -7,11 +7,11 @@ nav:
     - Preface: intro/preface.md
     - Acknowledgements: intro/acknowledgements.md
     - About this book: intro/about-this-book.md
-    - About the Authors: intro/about-the-authors.md
-    - Chapter 1 Introduction: intro/ch-01.md
-    - Chapter 2 Graphs: intro/ch-02.md
-    - Chapter 3 Systems Thinking: intro/ch-03.md
-    - Chapter 4 Title: intro/ch-04.md
+    - About the Author: intro/about-the-authors.md
+    - Chapter 1 Introduction: intro/ch-01-intro.md
+    - Chapter 2 Graphs: intro/ch-02-graph.md
+    - Chapter 3 Systems Thinking: intro/ch-03-systems.md
+    - Chapter 4 Title: intro/ch-04-systems-graph.md
   - Part 2 Concepts:
     - Chapter 5: concepts/ch-05.md
   # - Render Tests:
