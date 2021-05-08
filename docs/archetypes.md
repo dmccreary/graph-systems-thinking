@@ -2,8 +2,21 @@
 
 In software engineering we use the concept of design patterns to create a name of a recurring solution to problems.  In Systems Thinking we use the term [archetype](glossary#archetype) to describe a ideal example that illustrates a systems thinking concept.
 
-#### The AI Flywheel 
+If you would like to contribute a new Archetype please do the following:
+
+1. Check to see if we don't already have it in our list
+2. Write up a short description and add it to our [issues](https://github.com/dmccreary/graph-systems-thinking/issues) list.  If you have a [Causal Loop Diagram](https://en.wikipedia.org/wiki/Causal_loop_diagram) for your new archetype please leave a link to the drawing.
+3. We will assign an editor to add your diagram to our master list of archetypes.
+
+Note our use of [Creative Commons Attribution NonCommercial ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) for all content on this web site.
+
+This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
+
+#### AI Flywheel 
 A positive feedback cycle where good predictions cause more use of a service which provide more feedback data to create better predictive models.
+
+#### Network Effect
+
 
 #### Tragedy of the Commons
 A situation in economic science when individual users, who have open access to a resource unhampered by shared social structures or formal rules that govern access and use, act independently according to their own self-interest and, contrary to the common good of all users, cause depletion of the resource through their uncoordinated actions.
