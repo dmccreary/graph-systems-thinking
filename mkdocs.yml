@@ -21,9 +21,10 @@ nav:
   #  - Chapter X: concepts/graph.md
   #  - Chapter X+1: concepts/graph.md
   #- Pt 3 Case Studies:
-  - Part 3 Case Studies:
-     - Chapter 9: case-studies/healthcare.md
+  # - Part 3 Case Studies:
+  #   - Chapter 9: case-studies/healthcare.md
   - Glossary: glossary.md
+  - What They Are Saying: what-they-are-saying.md
   - Colophon: colophon.md
   - References: references.md
   - Contact: contact.md
