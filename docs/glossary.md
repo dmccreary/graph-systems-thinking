@@ -1,6 +1,8 @@
 # Glossary of Terms
 
-#### Archetypes
+#### Archetype
+An ideal example of something.  In the field of Graph Systems Thinking we use the term **archetype** to describe a small and simple example that teaches one of the key concepts in Graph Systems Thinking.
+
 A small set of system structures that produce common behavioral patterns across many different fields.
 
 Archetypes unify disciplines that have often been taught as separate things – psychology, economics, biology, urban planning, technology, government systems, etc. – because they can be universally found in all systems.
@@ -49,7 +51,12 @@ The migration of ideas, information or resources from one system component to ot
 #### Graph Database
 A database of items that is decomposed into vertices and edges, each of which have attributes.
 
-There are many types of graph databases that model the state of the world in different ways.  What many of them share in common is their ability to traverse relationships between items without 
+There are many types of graph databases that model the state of the world in different ways.  What many of them share in common is their ability to traverse relationships between items without using query time JOIN comparisons of primary and foreign keys.  JOIN operations became one of the principal reasons that graph databases provide 1,000x performance over relational databases.
+
+#### Graph Systems Thinking
+A multidisciplinary field of study that uses systems thinking to understand the business value of connected data.
+
+* Also known as: GST
 
 #### Hierarchy
 A systems diagram where material or information flows up and down a tree-like structure.
