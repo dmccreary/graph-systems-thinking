@@ -14,3 +14,5 @@ Systems Thinking for Social Change by David Peter Stroh, 2015 by Chelsea Green P
 
 #### System Thinking Course
 [The University of Florida St. Leo University GLO 410: Systems Thinking](https://slulibrary.saintleo.edu/c.php?g=449435)
+
+#### Systems Thinking Made Simple
