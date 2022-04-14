@@ -1,5 +1,13 @@
 # Glossary of Terms
 
+#### AI Flywheel
+
+A system where machine learning models make predictions from data, get feedback from prediction and use that feedback as additional data to make better predictions.
+
+![](img/ai-flywheel.png)
+
+The AI Flywheel is a central tool that allows large companies with large amounts of data to use this data to get even more data.  This makes it difficult for new-entrants.
+
 #### Archetype
 An ideal example of something.  In the field of Graph Systems Thinking we use the term **archetype** to describe a small and simple example that teaches one of the key concepts in Graph Systems Thinking.
 
@@ -8,6 +16,9 @@ A small set of system structures that produce common behavioral patterns across 
 Archetypes unify disciplines that have often been taught as separate things – psychology, economics, biology, urban planning, technology, government systems, etc. – because they can be universally found in all systems.
 
 Archetypes are to systems what Patterns are to software.
+
+* See Also: [Tragedy of The Commons](#tragedy-of-the-commens)
+* Seel Also: [The AI Flywheel](#ai-flywheel)
 
 #### Balancing Loop
 A type of cause and effect interactions that counter a change with a push in the opposite direction.
@@ -144,7 +155,11 @@ Systems are both natural or human-made.
 A problem solving method that decomposes complex entities into a set of parts that interact over time.
 
 #### System Theory
-The interdisciplinary study of systems. 
+The interdisciplinary study of systems.
+
+#### Tragedy of the Commons
+
+![](img/tragedy-of-the-commons.png)
 
 #### Unintended Consequences
 Outcomes of a purposeful action that are not intended or foreseen.
