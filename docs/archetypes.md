@@ -12,8 +12,7 @@ Note our use of [Creative Commons Attribution NonCommercial ShareAlike 4.0 Inter
 
 This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
 
-#### AI Flywheel 
-A positive feedback cycle where good predictions cause more use of a service which provide more feedback data to create better predictive models.
+
 
 #### Network Effect
 

@@ -1,3 +1,5 @@
 site
+build
 .DS_Store
 ~$*
+full-book.md
