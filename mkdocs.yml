@@ -16,6 +16,7 @@ nav:
     - Introduction: archetypes/ch-05-totc.md
     - Tragedy of the Commons: archetypes/commons.md
     - The AI Flywheel: archetypes/ai-flywheel.md
+    - Concept Standards: archetypes/concept-standards.md
   # - Render Tests:
   #  - render-tests/mermaid-test.md
   #  - render-tests/state-diagram.md

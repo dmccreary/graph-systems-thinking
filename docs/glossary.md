@@ -25,6 +25,12 @@ A type of cause and effect interactions that counter a change with a push in the
 
 * Also known as: Negative feedback
 
+#### Canonical Schema
+
+A standardized official approved way to represent data on-the-wire as it moves between computer systems.
+
+The process of converting non-standardized representations of data is to perform [Schema Matching](#schema-matching) and [Schema Mapping](#schema-mapping).
+
 #### Causal Loop Diagrams
 Diagrams that show the dynamic relationship of sub-components of Systems where changes in the state of any component have causal impacts on other components of the system.
 
