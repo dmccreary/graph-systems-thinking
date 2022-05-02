@@ -131,9 +131,10 @@ A Managers' Guide to Applying Systems Thinking
 by Dennis Sherwood
 
 ### Systems Thinking, Systems Practice
-Peter Chec
+[Systems Thinking, Systems Practice: Includes a 30-Year Retrospective](https://www.amazon.com/Systems-Thinking-Practice-30-Year-Retrospective/dp/0471986062/ref=asc_df_0471986062/)
+by Peter Checkland
 
-#### Systems Thinking: Coping with 21st Cent
+#### Systems Thinking: Coping with 21st Century Problems
 Brian Sauser and John Boardman
 
 #### Systems Thinking: Creative Holism for Managers
@@ -149,5 +150,36 @@ by Mike Jackson
 
 #### System Thinking Course
 [The University of Florida St. Leo University GLO 410: Systems Thinking](https://slulibrary.saintleo.edu/c.php?g=449435)
+
+## Courses
+
+#### MIT Management Executive Education: Understanding and Solving Complex Business Problems
+
+[MIT Management Executive Education: Understanding and Solving Complex Business Problems](https://executive.mit.edu/course/understanding-and-solving-complex-business-problems/a056g00000URaNBAA1.html)
+
+1. Price: $4,100
+2. Length: 2 8-hour days
+
+This complex problem solving course introduces participants to MIT's unique, powerful, and integrative system dynamics approach to assess problems that will not go away and to produce the results they want. Through exercises and simulation models participants experience the long-term side effects and impacts of decisions and understand the ways in which performance is tied to structures and policies.
+
+Systems thinking was devised to improve people's ability to manage organizations comprehensively in a volatile global environment. It offers managers a framework for understanding complex situations and the dynamics those situations produce. Systems thinking is a response to the rapid changes in technology, population, and economic activity that are transforming the world, and as a way to deal with the ever-increasing complexity of today's business.
+
+Senior managers can use the system dynamics method to design policies that lead their organizations to high performance. The program is intended to give participants the tools and confidence to manage organizations with full understanding and solid strategy.
+
+Participants will experience the [Beer Game](https://www.technologyreview.com/2013/10/22/175775/the-beer-game/), a table game, developed by Jay Forrester. Played with pen, paper, printed plastic tablecloths, and poker chips, it simulates the supply chain of the beer industry. In so doing, it illuminates aspects of system dynamics, a signature mode of MIT thought: it illustrates the nonlinear complexities of supply chains and the way individuals are circumscribed by the systems in which they act.
+
+You will receive a certificate of course completion at the conclusion of this course. You may also be interested in our Executive Certificates which are designed around a central themed track and consist of several courses. Learn more.
+
+## Videos
+
+[Introduction to System Dynamics: Overview](https://www.youtube.com/watch?v=AnTwZVviXyY) - MIT 15.871 Introduction to System Dynamics, Fall 2013
+
+[MIT Business Dynamics Promo Playlist](https://www.youtube.com/playlist?list=PLKaF-rnKfpxPbREN4H6MhpSMdBqLv0jJ7) - These videos are mostly ads for why system thinking is relevant in some businesses.  on manufacturing, supply chain and services. - not much topics on information systems.  They do talk about feedback, stocks and flows.
+
+[Forrester on Mental Models](https://youtu.be/U6iB1wllDFI) - 14 minute video from 2013 - Excerpt from the Fireside Chat with Jay W. Forrester. Interviewed by John Sterman.
+At the 29th International Conference of the System Dynamics Society. Washington, DC   July 27, 2011
+
+
+
 
 
