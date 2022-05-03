@@ -21,7 +21,14 @@ I really enjoyed your graph systems thinking course.  It really expanded my thou
 
 * [Daryl Hendricks](https://www.linkedin.com/in/daryl-hendricks-0abb607/)
 * Senior Data Architecture Associate
-  
+
+#### Inspiring Talk
+
+Thanks for your inspiring talk at the Knowledge Graph Conference!
+
+* [Yuanyuan Tian](https://www.linkedin.com/in/yuanyuan-tian-geo/)
+* GeoAI
+
 #### EKGs and the Quality Movement
 
 I really enjoyed your course on graph systems thinking and your Medium articles.
