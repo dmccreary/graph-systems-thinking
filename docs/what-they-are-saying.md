@@ -1,19 +1,19 @@
 # What People are Saying about the Graph Systems Thinking Course
 
-I am grateful to be connected to many of the former students of this course.
+I am grateful to be connected to many of the former students of this course.  Here are just a few people that gave me permission to use their comment on the class.  Please let me know if you would like to be included in our feedback loop!
 
 #### Interested in Bringing Systems Thinking to Business
 
 Thanks for a great talk on Systems Thinking + Graphs.  I'm very interested in bringing Systems Thinking into business and development and, and your talk has encouraged me to revisit it.
 
-* Tane Piper
+* [Tane Piper](https://www.linkedin.com/in/tanepiper/)
 * IKEA Systems
 
 #### Course Touched Multiple Pain Points
 
 Thank you for very interesting session about graph system thinking and insightful Q&A. I hope to follow your journey. You have touched multiple pain points I currently have: PKGs, hardware support, graph system thinking... so, it is very good you have put so much effort into your blog. I am plan to study it once I am done with KGC.
 
-* Alex Matiushkin
+* [Alex Matiushkin](https://www.linkedin.com/in/amatiushkin/)
 * Member Of Technical Staff at eBay
 
 #### Expanded Possibilities of EKGs
