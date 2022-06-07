@@ -2,7 +2,7 @@
 
 *You can't reuse what you can't find.*
 
-![Search and Reuse](img/search-and-reuse.png)
+![Search and Reuse](../img/search-and-reuse.png)
 
 Note that this archetype is written from the reusable code perspective, but it also applies to other reusable assets such as images, digital content, datasets and models use for machine learning.
 
@@ -14,7 +14,9 @@ Note that this archetype is written from the reusable code perspective, but it a
 1. Users can quickly see of pre-built code is suitable for their tasks.  They can see use-cases of other teams that have already used the code and view comments and bug reports as well as the speed that the bugs were fixed.
 1. Teams can then use the code, contribute to the code and 
 
-## The negative feeback cycle can be expressed in four parts:
+## Negative Feedback
+
+The negative feedback cycle can be expressed in four parts:
 
 1. *You can't reuse what you can't find.*
 2. *What you don't reuse you will rewrite.*
