@@ -27,10 +27,19 @@ The negative feedback cycle can be expressed in four parts:
 
 ### HuggingFace Model Search
 
-HuggingFace is the world leader in the storage and search of machine learning models and datasets.
+HuggingFace is the world leader in the storage and search of machine learning models and datasets.  They have more reuseable public machine learning models than all the cloud vendors combined.  But the number of models (in the tens of thousands as of June 2022) is overwhelming.  To solve this problem, HuggingFace implemented "faceted" search.  Each additional facet is an orthogonal dimension of data.  By selecting two or more you can effectively do an Boolean "AND" operation:
+
+```sql
+WHERE CONDITION1 = VALUE1 and CONDITION2 = VALUE2
+```
 
 ### HuggingFace Exercise
+
+In this demo, we show the power of using faceted search to narrow down the total number of machine learning models in a collection.
+
 1. Go to [https://huggingface.co/models](https://huggingface.co/models).
 2. Look at the count of models
-3. Go to the left side and select only English Language models.  Note the new count s
-huggingface-english-language-models.png
+3. Go to the left side and select only English Language models.  Note the new count!  It is typically 1/100th of the total model count.
+4. Now add only the models training on Wikipedia - the model count is 1/10th of the prior value.
+
+![Search and Reuse](../img/huggingface-english-language-models.png)
