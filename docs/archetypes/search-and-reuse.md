@@ -1,4 +1,4 @@
-# Search and Reuse Archetype
+# The Search and Reuse Archetype
 
 *You can't reuse what you can't find.*
 

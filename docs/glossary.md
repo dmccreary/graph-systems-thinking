@@ -108,11 +108,16 @@ A factor in a system that limits it ability to perform.
 #### Nonlinear
 In the field of systems dynamics, nonlinear refers to the fact that a small change in one component may result is a large changes in related component.
 
+![Non Linear Example](img/non-linear-example.png)
+The figure above is an example of the non-linear utility in the Tragedy of the Commons archetype.
+
 Our brains need special training to understand the ways that nonlinear systems interact and to understand the long-term impact of nonlinear dynamics.
 
 For example, in ecology a small change in the level of carbon dioxide in the atmosphere may cause a large change in global temperature.
 
 In commerce, a small change in product quality may lead to poor reviews, lower recommendations and a dramatic drop in sales.
+
+* [Nonlinear system in Wikipedia](https://en.wikipedia.org/wiki/Nonlinear_system)
 
 #### Normalized Data Models
 Data models that faithfully model the complex relationships of the real world.

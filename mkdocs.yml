@@ -35,8 +35,8 @@ nav:
   - Contact: contact.md
 
 site_description: 'Book on Graphs and Systems Thinking'
-site_author: 'Arun Batchu, Jon Herke, Dan McCreary, David Quimbly'
-repo_name: 'Link to GitHub'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
 repo_url: 'https://github.com/dmccreary/graph-systems-thinking'
 
 edit_uri: 'blob/master/docs'
@@ -46,7 +46,7 @@ theme:
   favicon: img/favicon.png
   palette:
     primary: 'blue'
-    accent: 'yellow'
+    accent: 'orange'
   custom_dir: 'theme'
   include_sidebar: true
 markdown_extensions:
@@ -54,6 +54,8 @@ markdown_extensions:
   - footnotes
 plugins:
     - search
+# I was trying to do the causal loop diagrams with Markup
+# It kind of works but slows down the build
 #    - mermaid2
 # markdown_extensions:
 #   - codehilite:
