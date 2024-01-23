@@ -20,7 +20,7 @@
     
     
       
-        <title>Influence Diagram - Graphs and Systems Thinking</title>
+        <title>MicroSim Template - Graphs and Systems Thinking</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#influence-diagram" class="md-skip">
+        <a href="#microsim-template" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Influence Diagram
+              MicroSim Template
             
           </span>
         </div>
@@ -829,6 +829,96 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-this-microsim" class="md-nav__link">
+    About this MicroSim
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-prompt" class="md-nav__link">
+    Sample Prompt
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-plan" class="md-nav__link">
+    Lesson Plan
+  </a>
+  
+    <nav class="md-nav" aria-label="Lesson Plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grade-level-subject-and-topic" class="md-nav__link">
+    Grade Level, Subject and Topic
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activities" class="md-nav__link">
+    Activities
+  </a>
+  
+    <nav class="md-nav" aria-label="Activities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fill-color" class="md-nav__link">
+    Fill Color
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#border-weight" class="md-nav__link">
+    Border Weight
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#border-color" class="md-nav__link">
+    Border Color
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-the-radius" class="md-nav__link">
+    Change the Radius
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-the-location" class="md-nav__link">
+    Change the Location
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -845,34 +935,54 @@
   
 
 
-<h1 id="influence-diagram">Influence Diagram</h1>
-<pre><code class="language-mermaid">graph TB
-    advocate[Advocate]
-    detractor[Detractor]
-    ceo[CEO] --&gt; cio[CIO]
-    cio --&gt; vp[VP]
-    vp --&gt; dir1[Director 1]
-    vp --&gt; dir2[Director 2]
-    dir1 --&gt; arc[Architect]
-    cio --&gt;|respects| arc
-    dir1 --&gt; dev1[Developer 1]
-    dir1 --&gt; dev2[Developer 2]
-    dir2 --&gt; dev3[Developer 3]
-    dir2 --&gt; dev4[Developer 4]
-    kc[Key Customer] --&gt; ceo
+<h1 id="microsim-template">MicroSim Template</h1>
+<figure markdown>
+   ![Image Name](./image.png){ width="400" }
+   <figcaption>Figure caption.</figcaption>
+</figure>
 
+<p><a href="./template.html">Link to Demo</a>{ .md-button .md-button--primary }</p>
+<h2 id="about-this-microsim">About this MicroSim</h2>
+<p>This MicroSim teaches us how to
+specify the drawing of a static filled circle.</p>
+<h2 id="sample-prompt">Sample Prompt</h2>
+<p>```linenums="0"
+Create a single file p5.js sketch.
+Draw a green circle on a 600x400 canvas with a radius of 200.</p>
+<pre><code>
+## Sample Response
 
-    style advocate fill:lightgreen
-    style detractor fill:pink
-    style cio fill:lightgreen
-    style dir1 fill:lightgreen
-    style arc fill:lightgreen
-    style dev1 fill:lightgreen
-    style dev2 fill:lightgreen
-    style dev3 fill:lightgreen
-    style dev4 fill:lightgreen
-    style dir2 fill:pink
+```javascript
+let canvasHeight = 400;
+let aspectRatio = 1.91; // Open Graph standard
+let canvasWidth = canvasHeight * aspectRatio;
+let radius = 200;
+function setup() {
+const canvas = createCanvas(canvasWidth, canvasHeight);
+  canvas.parent('canvas-container');
+  fill(245);
+  rect(0,0, canvasWidth, canvasHeight);
+  fill('green');
+  circle(canvasWidth/2, canvasHeight/2, radius);
+}
 </code></pre>
+<h2 id="lesson-plan">Lesson Plan</h2>
+<h3 id="grade-level-subject-and-topic">Grade Level, Subject and Topic</h3>
+<p>9th grade geometry. Circle and radius.</p>
+<h3 id="activities">Activities</h3>
+<h4 id="fill-color">Fill Color</h4>
+<p>Change the color in the prompt.  You
+can specify any one of the <a href="https://www.w3schools.com/tags/ref_colornames.asp">140 named colors</a>.</p>
+<h4 id="border-weight">Border Weight</h4>
+<p>Change the prompt to include a black border of
+width 10.</p>
+<h4 id="border-color">Border Color</h4>
+<p>Change the prompt to make the border purple.</p>
+<h4 id="change-the-radius">Change the Radius</h4>
+<p>Change the prompt to make the circle smaller
+or larger by changing the radius from 10 to 200.</p>
+<h4 id="change-the-location">Change the Location</h4>
+<p>Change the prompt to move the circle to the left or right.</p>
 
 
 
