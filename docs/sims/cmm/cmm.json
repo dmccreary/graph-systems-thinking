@@ -1,0 +1,14 @@
+[
+    {"_comment": "Variables",
+     "_margin": "Margin around the drawing",
+      "m": 20,
+      "step_width": 100,
+      "_step_height": "how high each step is"
+      "sh": 60
+    },
+    { x: m,     y: sh*4+m, w: step_width*5-m, h: 60, level: "Level 1 - Initial Awareness", color: "red", tcolor: "white" },
+    { x: 100+m, y: sh*3+m, w: step_width*4, h: 60, level: "Level 2 - Repeatable", color: "orange", tcolor: "black"  },
+    { x: 200+m, y: sh*2+m, w: step_width*3+m, h: 60, level: "Level 3 - Defined", color: "yellow", tcolor: "black" },
+    { x: 300+m, y: sh*1+m, w: step_width*2+m*2, h: 60, level: "Level 4 - Managed", color: "green", tcolor: "white"  },
+    { x: 400,   y: m,      w: step_width+m*4, h: 60, level: "L5 - Optimizing", color: "blue", tcolor: "white"  }
+]
