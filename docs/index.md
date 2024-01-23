@@ -15,6 +15,9 @@ many resources on these topics as well
 as how to accelerate the adoption of
 Enterprise Knowledge Graphs (EKGs) in your organization.
 
+It 2023 we also started adding sample GenAI prompts
+to help teams use GenAI to promote Systems Thinking.
+
 Please let me know if you have any questions or
 feedback on this website.
 
