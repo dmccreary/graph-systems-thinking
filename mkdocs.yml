@@ -58,7 +58,10 @@ theme:
   include_sidebar: true
 markdown_extensions:
   - admonition
-  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
 plugins:
     - search
 # I was trying to do the causal loop diagrams with Markup

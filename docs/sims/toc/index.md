@@ -1,6 +1,6 @@
 # Tragedy of The Commons
 
-![Tragedy of the Commons MicroSim](toc.png){ width="400" }
+![Tragedy of the Commons MicroSim](toc.png){ width="500" }
 
 
 [Link to Tragedy of the Commons MicroSim](toc.html){ .md-button .md-button--primary }

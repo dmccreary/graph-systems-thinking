@@ -33,11 +33,11 @@ function setup() {
   textSize(16);
   
   startStopButton = createButton('Start/Stop');
-  startStopButton.position(10, drawHeight + 30);
+  startStopButton.position(20, drawHeight + 35);
   startStopButton.mousePressed(toggleSimulation);
 
   resetButton = createButton('Reset');
-  resetButton.position(100, drawHeight + 30);
+  resetButton.position(110, drawHeight + 35);
   resetButton.mousePressed(resetSimulation);
   
   // how many grids cells wide and high
@@ -46,7 +46,7 @@ function setup() {
   
   // slider to control the number of cows in the field
   agentSlider = createSlider(1, 100, 50);
-  agentSlider.position(170, drawHeight + 5);
+  agentSlider.position(170, drawHeight + 15);
   agentSlider.size(canvasWidth - 190);
 
   initializeResources();
