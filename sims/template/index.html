@@ -950,6 +950,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#sample-response" class="md-nav__link">
+    Sample Response
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#lesson-plan" class="md-nav__link">
     Lesson Plan
   </a>
@@ -1036,36 +1043,33 @@
 
 
 <h1 id="microsim-template">MicroSim Template</h1>
-<figure markdown>
-   ![Image Name](./image.png){ width="400" }
-   <figcaption>Figure caption.</figcaption>
+<figure>
+<p><img alt="Image Name" src="./image.png" width="400" />
+   </p>
+<figcaption>Figure caption.</figcaption>
 </figure>
-
-<p><a href="./template.html">Link to Demo</a>{ .md-button .md-button--primary }</p>
+<p><a class="md-button md-button--primary" href="./template.html">Link to Demo</a></p>
 <h2 id="about-this-microsim">About this MicroSim</h2>
 <p>This MicroSim teaches us how to
 specify the drawing of a static filled circle.</p>
 <h2 id="sample-prompt">Sample Prompt</h2>
-<p>```linenums="0"
-Create a single file p5.js sketch.
-Draw a green circle on a 600x400 canvas with a radius of 200.</p>
-<pre><code>
-## Sample Response
-
-```javascript
-let canvasHeight = 400;
-let aspectRatio = 1.91; // Open Graph standard
-let canvasWidth = canvasHeight * aspectRatio;
-let radius = 200;
-function setup() {
-const canvas = createCanvas(canvasWidth, canvasHeight);
-  canvas.parent('canvas-container');
-  fill(245);
-  rect(0,0, canvasWidth, canvasHeight);
-  fill('green');
-  circle(canvasWidth/2, canvasHeight/2, radius);
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code>Create a single file p5.js sketch.
+Draw a green circle on a 600x400 canvas with a radius of 200.
+</code></pre></div>
+<h2 id="sample-response">Sample Response</h2>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">canvasHeight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">400</span><span class="p">;</span>
+<span class="kd">let</span><span class="w"> </span><span class="nx">aspectRatio</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.91</span><span class="p">;</span><span class="w"> </span><span class="c1">// Open Graph standard</span>
+<span class="kd">let</span><span class="w"> </span><span class="nx">canvasWidth</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">canvasHeight</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">aspectRatio</span><span class="p">;</span>
+<span class="kd">let</span><span class="w"> </span><span class="nx">radius</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">200</span><span class="p">;</span>
+<span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">canvas</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">createCanvas</span><span class="p">(</span><span class="nx">canvasWidth</span><span class="p">,</span><span class="w"> </span><span class="nx">canvasHeight</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">canvas</span><span class="p">.</span><span class="nx">parent</span><span class="p">(</span><span class="s1">&#39;canvas-container&#39;</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="mf">245</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">rect</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="nx">canvasWidth</span><span class="p">,</span><span class="w"> </span><span class="nx">canvasHeight</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="s1">&#39;green&#39;</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">circle</span><span class="p">(</span><span class="nx">canvasWidth</span><span class="o">/</span><span class="mf">2</span><span class="p">,</span><span class="w"> </span><span class="nx">canvasHeight</span><span class="o">/</span><span class="mf">2</span><span class="p">,</span><span class="w"> </span><span class="nx">radius</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
 <h2 id="lesson-plan">Lesson Plan</h2>
 <h3 id="grade-level-subject-and-topic">Grade Level, Subject and Topic</h3>
 <p>9th grade geometry. Circle and radius.</p>

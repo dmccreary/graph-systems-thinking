@@ -946,29 +946,28 @@
 
 
 <h1 id="render-tests">Render Tests</h1>
-<pre><code class="language-mermaid">graph LR
+<div class="highlight"><pre><span></span><code>graph LR
     Start --&gt; gd[Gather Data]
     gd --&gt; tm[Train Model]
     tm --&gt; po[Predict Outcome]
     po --&gt; gf[Gather Feedback]
     gf --&gt; |More Data| gd
-</code></pre>
-<pre><code class="language-mermaid">erDiagram
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>erDiagram
     Data ||--o{ Model : Positive
     Prediction ||--o{ Model : Negative
-</code></pre>
-<pre><code class="language-mermaid">graph LR
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>graph LR
     A ---&gt;|+| B
     B ---&gt;|-| C
     C ---&gt;|-| D
     D ---&gt;|-| A
-</code></pre>
-<pre><code class="language-mermaid">graph LR
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>graph LR
     Start(Start)--&gt;End(End)
     style Start fill:green, stroke:black, stroke-width:2px
     style End fill:#bbf, stroke:#f66, stroke-width:2px, color:#fff, stroke-dasharray: 5 5
-
-</code></pre>
+</code></pre></div>
 
 
 
