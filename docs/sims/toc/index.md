@@ -23,6 +23,7 @@ We also use the Tragedy of the Commons metaphor to help organizations break down
 ```linenums="0"
 Create a simulation of the Tragedy of the Commons.
 ```
+[Sample ChatGPT Dialog](https://chat.openai.com/g/g-yLEKOCjXP-p5-js-visual-art-composer/c/d5ab1350-7196-49b3-9b38-e68bdad67dda)
 
 ## Refinements
 
