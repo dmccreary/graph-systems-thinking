@@ -1,17 +1,22 @@
-# Tragedy of The Commons
+# Tragedy of The Commons MicroSim
 
 ![Tragedy of the Commons MicroSim](toc.png){ width="500" }
 
-[Link to Tragedy of the Commons MicroSim](toc.html){ .md-button .md-button--primary }
-[Edit](https://editor.p5js.org/dmccreary/sketches/2NYEIUklI)
+[Run the Tragedy of the Commons MicroSim](toc.html){ .md-button .md-button--primary }
+[Edit the MicroSim](https://editor.p5js.org/dmccreary/sketches/2NYEIUklI)
 
 ## About this MicroSim
 
 This MicroSim teaches us the story of the Tragedy of
 the Commons.  As you add more cows to the pasture, the
-grass gets over-grazed.
+grass gets over-grazed.  How many cows can a pasture
+support before it becomes overgrazed?
 
 Creating a simulation of the "Tragedy of the Commons" is a great way to help students understand the consequences of individual actions on shared resources. The "Tragedy of the Commons" refers to a situation in a shared-resource system where individual users, acting independently according to their own self-interest, behave contrary to the common good of all users by depleting or spoiling the shared resource.
+
+The Tragedy of the Commons is a key [Archetype](https://dmccreary.github.io/graph-systems-thinking/archetypes/commons/) that I use when I teach my systems thinking classes.  It is a compelling metaphor whenever there are shared resources in an organization.
+
+We also use the Tragedy of the Commons metaphor to help organizations break down data silos and share data, information and knowledge.
 
 ## Sample Prompt
 
