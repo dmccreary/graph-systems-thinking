@@ -154,11 +154,9 @@ class Agent {
     }
   }
 
+  // draw a cow emoji
   show() {
-    // console.log(this.pos.x, this.pos.y)
-    //noStroke();
-    fill('tan');
-    circle(this.pos.x, this.pos.y, 15);
+    text("🐮", this.pos.x, this.pos.y);
   }
 }
 
