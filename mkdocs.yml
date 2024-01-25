@@ -33,7 +33,7 @@ nav:
     - Silo Busting Microstrategies: cmm-strategies/silo-busting-microstrategies.md
   - Simulations:
     - Introduction: sims/index.md
-    - High School Simulations: 
+    - High School Simulations: sims/high-school.md
     - Tragedy of the Commons: sims/toc/index.md
   - Archetypes: archetypes.md
   - Presentations: slides.md
