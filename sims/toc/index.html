@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="../../cmm-strategies/silo-busting-microstrategies/">
+        <link rel="prev" href="../high-school/">
       
       
         <link rel="next" href="../../archetypes/">
@@ -759,6 +759,46 @@
                 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../high-school/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    High School Simulations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -823,6 +863,13 @@
         <li class="md-nav__item">
   <a href="#refinements" class="md-nav__link">
     Refinements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-extensions" class="md-nav__link">
+    Other Extensions
   </a>
   
 </li>
@@ -1023,6 +1070,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#other-extensions" class="md-nav__link">
+    Other Extensions
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1049,6 +1103,7 @@
 <p>This MicroSim teaches us the story of the Tragedy of
 the Commons.  As you add more cows to the pasture, the
 grass gets over-grazed.</p>
+<p>Creating a simulation of the "Tragedy of the Commons" is a great way to help students understand the consequences of individual actions on shared resources. The "Tragedy of the Commons" refers to a situation in a shared-resource system where individual users, acting independently according to their own self-interest, behave contrary to the common good of all users by depleting or spoiling the shared resource.</p>
 <h2 id="sample-prompt">Sample Prompt</h2>
 <div class="highlight"><pre><span></span><code>Create a simulation of the Tragedy of the Commons.
 </code></pre></div>
@@ -1057,7 +1112,47 @@ grass gets over-grazed.</p>
 <li>Make the cows go towards the most grass</li>
 <li>Make the grass permanently die if it reaches a level of 0</li>
 <li>Make the cows die if they don't eat enough grass</li>
+<li>Use the cow emoji:</li>
 </ol>
+<div class="highlight"><pre><span></span><code><span class="n">show</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">text</span><span class="p">(</span><span class="s2">&quot;🐮&quot;</span><span class="p">,</span> <span class="n">this</span><span class="o">.</span><span class="n">pos</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">this</span><span class="o">.</span><span class="n">pos</span><span class="o">.</span><span class="n">y</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="other-extensions">Other Extensions</h2>
+<p>Here's a step-by-step guide on how you could set up such a simulation:</p>
+<ol>
+<li>
+<p><strong>Define the Shared Resource</strong>: Start with a shared resource that is easily understandable, such as a fishing lake, a grazing field, or a forest for timber. The resource should have a limit to how much it can be used sustainably.</p>
+</li>
+<li>
+<p><strong>Create User Profiles</strong>: Develop profiles for different users of the resource. These users should have the ability to extract or use the resource at varying rates. For instance, in a fishing lake simulation, each user could decide how many fish to catch per turn.</p>
+</li>
+<li>
+<p><strong>Set Resource Regeneration Rules</strong>: Establish rules for how the resource regenerates over time. For a fish population, you could have a growth rate that depends on the remaining population size.</p>
+</li>
+<li>
+<p><strong>Develop a User Interface</strong>: Create an interface where students can make decisions for their user profile. Include sliders or input fields where they can decide how much of the resource to use each turn.</p>
+</li>
+<li>
+<p><strong>Implement Feedback Mechanisms</strong>: The simulation should provide feedback on the state of the common resource after each round of usage, showing how the resource level changes based on the collective actions of all users.</p>
+</li>
+<li>
+<p><strong>Introduce Scenarios or Challenges</strong>: You could introduce external factors that affect the resource, like environmental changes, to add complexity.</p>
+</li>
+<li>
+<p><strong>Incorporate Visualizations</strong>: Graphs or other visual aids can help students see the long-term trends of the resource level and the impacts of their decisions.</p>
+</li>
+<li>
+<p><strong>Facilitate Discussion and Debriefing</strong>: After the simulation, hold a discussion. Ask students to reflect on how their actions affected the resource and what strategies could have led to more sustainable outcomes.</p>
+</li>
+<li>
+<p><strong>Draw Connections to Real-world Issues</strong>: Relate the simulation to real-world examples of the Tragedy of the Commons, like overfishing, deforestation, and pollution. This helps students understand the practical implications of the concept.</p>
+</li>
+<li>
+<p><strong>Highlight the Role of Regulations and Agreements</strong>: Discuss how regulations, agreements, or cooperative strategies could prevent the tragedy of the commons. This could lead to a deeper understanding of environmental policies and community management strategies.</p>
+</li>
+</ol>
+<p>Through this interactive experience, students can grasp the challenges of managing shared resources and the importance of sustainable practices and cooperation.</p>
 
 
 
@@ -1078,7 +1173,7 @@ grass gets over-grazed.</p>
       <div class="md-footer-nav">
         <nav class="md-footer-nav__inner md-grid">
           
-            <a href="../../cmm-strategies/silo-busting-microstrategies/" title="Silo Busting Microstrategies" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <a href="../high-school/" title="High School Simulations" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
               <div class="md-flex__cell md-flex__cell--shrink">
                 <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
               </div>
@@ -1087,7 +1182,7 @@ grass gets over-grazed.</p>
                   <span class="md-footer-nav__direction">
                     Previous
                   </span>
-                  Silo Busting Microstrategies
+                  High School Simulations
                 </span>
               </div>
             </a>
