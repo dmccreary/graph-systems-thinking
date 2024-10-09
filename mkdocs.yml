@@ -42,6 +42,7 @@ nav:
       - Introduction: prompts/knowledge-graphs/index.md
       - Concept Enumeration: prompts-knowledge-graphs/concept-enumerations.md
       - Graph Demo: prompts/knowledge-graphs/graph/index.md
+      - Enumerating Archetypes: prompts/enumerating-archetypes.md
   - Archetypes: archetypes.md
   - Presentations: slides.md
   - Glossary: glossary.md
