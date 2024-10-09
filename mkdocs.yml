@@ -40,9 +40,11 @@ nav:
     - Introduction: prompts/index.md
     - Knowledge Graphs:
       - Introduction: prompts/knowledge-graphs/index.md
-      - Concept Enumeration: prompts-knowledge-graphs/concept-enumerations.md
+      - Concept Enumeration: prompts/knowledge-graphs/concept-enumeration.md
+      - prompts/knowledge-graphs/concept-dependency.md
+      - prompts/knowledge-graphs/concept-taxonomy.md
       - Graph Demo: prompts/knowledge-graphs/graph/index.md
-      - Enumerating Archetypes: prompts/enumerating-archetypes.md
+    - Enumerating Archetypes: prompts/enumerating-archetypes.md
   - Archetypes: archetypes.md
   - Presentations: slides.md
   - Glossary: glossary.md
