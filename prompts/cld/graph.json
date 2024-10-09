@@ -1,0 +1,24 @@
+{
+"nodes": [
+    { "id": 1, "label": "Data", "x": 0, "y": "-400" },
+    { "id": 2, "label": "Model", "x": 400, "y": "0" },
+    { "id": 3, "label": "Prediction", "x": 0, "y": "400"  },
+    { "id": 4, "label": "Feedback", "x": -400, "y": "0"  },
+    { 
+        "id": 5, 
+        "label": "",
+        "shape": "image",
+        "image": "reinforcing-loop-cw.png",
+        "x": 0,
+        "y": 0, 
+        "size": 50
+    }
+],
+"edges": [
+    { "from": 1, "to": 2, "label": "Trains", "arrows": "to" },
+    { "from": 2, "to": 3, "label": "Generates", "arrows": "to" },
+    { "from": 3, "to": 4, "label": "Produces", "arrows": "to" },
+    { "from": 4, "to": 1, "label": "Improves", "arrows": "to" }
+]
+}
+  
