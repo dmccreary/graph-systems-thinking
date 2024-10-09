@@ -45,6 +45,7 @@ nav:
       - prompts/knowledge-graphs/concept-taxonomy.md
       - Graph Demo: prompts/knowledge-graphs/graph/index.md
     - Enumerating Archetypes: prompts/enumerating-archetypes.md
+    - Causal Loop Diagram: prompts/cld/index.md
   - Archetypes: archetypes.md
   - Presentations: slides.md
   - Glossary: glossary.md
