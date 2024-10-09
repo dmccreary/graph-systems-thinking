@@ -36,6 +36,12 @@ nav:
     - Introduction: sims/index.md
     - High School Simulations: sims/high-school.md
     - Tragedy of the Commons: sims/toc/index.md
+  - Prompts:
+    - Introduction: prompts/index.md
+    - Knowledge Graphs:
+      - Introduction: prompts/knowledge-graphs/index.md
+      - Concept Enumeration: prompts-knowledge-graphs/concept-enumerations.md
+      - Graph Demo: prompts/knowledge-graphs/graph/index.md
   - Archetypes: archetypes.md
   - Presentations: slides.md
   - Glossary: glossary.md
