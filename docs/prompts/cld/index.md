@@ -21,6 +21,8 @@
 
 ### Image
 
+reinforcing loop
+
 ```json
 { 
     "id": 5, 
@@ -30,6 +32,23 @@
     "x": 0, 
     "y": 0, 
     "size": 50  // Size of the image node
+}
+```
+
+```json
+{ 
+    "id": 5, 
+    "label": "",
+    "shape": "image",
+    "image": "reinforcing-loop-cw.png",
+    "x": 0,
+    "y": 0, 
+    "size": 50,
+    "fixed": { "x": true, "y": true },
+    "scaling": {
+        "min": 10,
+        "max": 200
+    }
 }
 ```
 

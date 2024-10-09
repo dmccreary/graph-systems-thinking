@@ -10,8 +10,7 @@
         "shape": "image",
         "image": "reinforcing-loop-cw.png",
         "x": 0,
-        "y": 0, 
-        "size": 50
+        "y": 0
     }
 ],
 "edges": [
