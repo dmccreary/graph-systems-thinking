@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Causal Loop Diagram - AI Development Ecosystem</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+  <style type="text/css">
+    #mynetwork {
+      width: 1000px;
+      height: 800px;
+      border: 1px solid lightgray;
+      background-color: #f9f9f9;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    .description {
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .description ul {
+      padding-left: 20px;
+    }
+    .description li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Causal Loop Diagram: Reinforcing Loops in AI Development Ecosystem</h1>
+    <div class="description">
+      <p>This diagram illustrates the multiple reinforcing loops in the AI development ecosystem, showing how various components influence and accelerate each other. Several key reinforcing loops are visible:</p>
+      <ul>
+        <li><strong>AI Flywheel Loop:</strong> ChatBots generate User Feedback, which becomes Training Data, which improves LLMs, which enhances ChatBots.</li>
+        <li><strong>R&D Loop:</strong> LLMs lead to Research Insights, which advance AI, which powers better models.</li>
+        <li><strong>Economic Loop:</strong> Enterprise Adoption funds Computing Resources, which enables better LLMs, which drives more adoption.</li>
+        <li><strong>Developer Productivity Loop:</strong> Software Agents augment Software Developers, who create better AI systems.</li>
+        <li><strong>Tool Acceleration Loop:</strong> Agentic IDEs create Model Context Protocols, which accelerate the IDEs themselves.</li>
+      </ul>
+      <p>These interconnected loops demonstrate how AI development creates self-reinforcing cycles of innovation and improvement.</p>
+    </div>
+    <div id="mynetwork"></div>
+  </div>
+
+  <script type="text/javascript">
+    // Create nodes data
+    var nodes = new vis.DataSet([
+      { id: 1, label: "Artificial Intelligence", color: { background: '#D2E5FF', border: '#2B7CE9' } },
+      { id: 2, label: "Software Developers", color: { background: '#FFC6AA', border: '#E09A52' } },
+      { id: 3, label: "Software Agents", color: { background: '#C6EFCE', border: '#36A335' } },
+      { id: 4, label: "Agentic IDEs", color: { background: '#E8C6FF', border: '#9C27B0' } },
+      { id: 5, label: "Model Context Protocols", color: { background: '#FFE6CC', border: '#FF9800' } },
+      { id: 6, label: "LLMs", color: { background: '#FFD2F9', border: '#E91E63' } },
+      { id: 7, label: "ChatBots", color: { background: '#FFEAD5', border: '#FF5722' } },
+      { id: 8, label: "Training Data", color: { background: '#D5F5E3', border: '#27AE60' } },
+      { id: 9, label: "User Feedback", color: { background: '#AED6F1', border: '#3498DB' } },
+      { id: 10, label: "Computing Resources", color: { background: '#F9E79F', border: '#F1C40F' } },
+      { id: 11, label: "Research Insights", color: { background: '#D2B4DE', border: '#8E44AD' } },
+      { id: 12, label: "Enterprise Adoption", color: { background: '#F5CBA7', border: '#D35400' } }
+    ]);
+
+    // Create edges data with labels
+    var edges = new vis.DataSet([
+      // Original relationships
+      { from: 2, to: 1, label: "Create", arrows: "to", color: {color: '#2B7CE9'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 2, to: 4, label: "Using", arrows: "to", color: {color: '#9C27B0'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 4, to: 4, label: "Use to Create", arrows: "to", smooth: {type: 'curvedCW', roundness: 0.4}, color: {color: '#9C27B0'} },
+      { from: 4, to: 5, label: "Create", arrows: "to", color: {color: '#FF9800'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 5, to: 4, label: "Accelerate", arrows: "to", color: {color: '#9C27B0'}, smooth: {type: 'curvedCCW', roundness: 0.2} },
+      { from: 1, to: 3, label: "Powers", arrows: "to", color: {color: '#36A335'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 3, to: 4, label: "Enhance", arrows: "to", color: {color: '#9C27B0'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 6, to: 3, label: "Used By", arrows: "to", color: {color: '#36A335'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 1, to: 6, label: "Contains", arrows: "to", color: {color: '#E91E63'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 1, to: 7, label: "Contains", arrows: "to", color: {color: '#FF5722'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 6, to: 7, label: "Used By", arrows: "to", color: {color: '#FF5722'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      
+      // AI Flywheel - Data reinforcing loop
+      { from: 7, to: 9, label: "Generates", arrows: "to", color: {color: '#3498DB'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 9, to: 8, label: "Becomes", arrows: "to", color: {color: '#27AE60'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 8, to: 6, label: "Improves", arrows: "to", color: {color: '#E91E63'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      
+      // Research and Development loop
+      { from: 6, to: 11, label: "Leads to", arrows: "to", color: {color: '#8E44AD'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 11, to: 1, label: "Advances", arrows: "to", color: {color: '#2B7CE9'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      
+      // Compute and Resources loop
+      { from: 10, to: 6, label: "Enables", arrows: "to", color: {color: '#E91E63'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 12, to: 10, label: "Funds", arrows: "to", color: {color: '#F1C40F'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 6, to: 12, label: "Drives", arrows: "to", color: {color: '#D35400'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      
+      // Developer Productivity loop
+      { from: 3, to: 2, label: "Augments", arrows: "to", color: {color: '#E09A52'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 11, to: 3, label: "Improves", arrows: "to", color: {color: '#36A335'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      
+      // Enterprise and Adoption loop
+      { from: 12, to: 2, label: "Hires", arrows: "to", color: {color: '#E09A52'}, smooth: {type: 'curvedCW', roundness: 0.2} },
+      { from: 7, to: 12, label: "Enables", arrows: "to", color: {color: '#D35400'}, smooth: {type: 'curvedCW', roundness: 0.2} }
+    ]);
+
+    // Create the network
+    var container = document.getElementById('mynetwork');
+    var data = {
+      nodes: nodes,
+      edges: edges
+    };
+    
+    // Configuration options
+    var options = {
+      nodes: {
+        shape: 'box',
+        size: 20,
+        font: {
+          size: 16
+        },
+        borderWidth: 2,
+        shadow: true,
+        margin: 12
+      },
+      edges: {
+        font: {
+          size: 16,  // Increased from 12 to 16
+          align: 'middle',
+          background: {
+            enabled: true,
+            color: '#ffffff',
+            size: 7,  // Increased background size to accommodate larger font
+            strokeWidth: 0
+          }
+        },
+        width: 2,
+        shadow: true,
+        smooth: {
+          type: 'dynamic',
+          forceDirection: 'none',
+          roundness: 0.5
+        },
+        length: 250
+      },
+      physics: {
+        enabled: true,
+        barnesHut: {
+          gravitationalConstant: -3000,
+          centralGravity: 0.3,
+          springLength: 300,
+          springConstant: 0.04,
+          damping: 0.09,
+          avoidOverlap: 1
+        },
+        repulsion: {
+          centralGravity: 0.2,
+          springLength: 300,
+          springConstant: 0.05,
+          nodeDistance: 350,
+          damping: 0.09
+        },
+        solver: 'forceAtlas2Based',
+        forceAtlas2Based: {
+          gravitationalConstant: -500,
+          centralGravity: 0.01,
+          springLength: 300,
+          springConstant: 0.08,
+          damping: 0.4,
+          avoidOverlap: 1
+        },
+        stabilization: {
+          enabled: true,
+          iterations: 1000,
+          updateInterval: 25
+        }
+      },
+      layout: {
+        improvedLayout: true,
+        hierarchical: {
+          enabled: false
+        }
+      }
+    };
+
+    // Initialize the network
+    var network = new vis.Network(container, data, options);
+
+    // Add buttons for interaction
+    var buttonsDiv = document.createElement('div');
+    buttonsDiv.style.marginTop = '20px';
+    buttonsDiv.style.marginBottom = '20px';
+    buttonsDiv.style.textAlign = 'center';
+    
+    var resetButton = document.createElement('button');
+    resetButton.innerHTML = 'Reset Layout';
+    resetButton.style.marginRight = '20px';
+    resetButton.style.padding = '10px 20px';
+    resetButton.style.backgroundColor = '#4CAF50';
+    resetButton.style.color = 'white';
+    resetButton.style.border = 'none';
+    resetButton.style.borderRadius = '4px';
+    resetButton.style.cursor = 'pointer';
+    resetButton.style.fontSize = '16px';
+    resetButton.style.fontWeight = 'bold';
+    resetButton.onclick = function() {
+      network.stabilize(100);
+    };
+    
+    var togglePhysicsButton = document.createElement('button');
+    togglePhysicsButton.innerHTML = 'Toggle Physics';
+    togglePhysicsButton.style.padding = '10px 20px';
+    togglePhysicsButton.style.backgroundColor = '#2196F3';
+    togglePhysicsButton.style.color = 'white';
+    togglePhysicsButton.style.border = 'none';
+    togglePhysicsButton.style.borderRadius = '4px';
+    togglePhysicsButton.style.cursor = 'pointer';
+    togglePhysicsButton.style.fontSize = '16px';
+    togglePhysicsButton.style.fontWeight = 'bold';
+    togglePhysicsButton.onclick = function() {
+      network.setOptions({ physics: { enabled: !network.physics.options.enabled }});
+    };
+    
+    buttonsDiv.appendChild(resetButton);
+    buttonsDiv.appendChild(togglePhysicsButton);
+    
+    // Insert buttons BEFORE the network container instead of after
+    document.querySelector('.container').insertBefore(buttonsDiv, container);
+
+    // Allow users to move nodes for better positioning
+    network.on("stabilizationIterationsDone", function () {
+      // Don't immediately disable physics - give users a chance to see how it works
+      setTimeout(function() {
+        network.setOptions({ physics: { enabled: false }});
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
