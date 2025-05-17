@@ -36,6 +36,7 @@ nav:
     - Introduction: sims/index.md
     - High School Simulations: sims/high-school.md
     - Tragedy of the Commons: sims/toc/index.md
+    - Agent CLD: sims/agent-cld/index.md
   - Prompts:
     - Introduction: prompts/index.md
     - Knowledge Graphs:

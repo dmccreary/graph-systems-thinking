@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Causal Loop Diagram - AI Development Ecosystem</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+  <style type="text/css">
+    #mynetwork {
+      width: 800px;
+      height: 600px;
+      border: 1px solid lightgray;
+      background-color: #f9f9f9;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    .description {
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Causal Loop Diagram: AI Development Ecosystem with LLMs and ChatBots</h1>
+    <div class="description">
+      <p>This diagram illustrates the relationships between key components in the AI development ecosystem, showing how they influence and reinforce each other in a feedback loop. LLMs (Large Language Models) have been added as a critical component used by Software Agents. ChatBots are also included as a subset of AI that utilize LLMs.</p>
+    </div>
+    <div id="mynetwork"></div>
+  </div>
+
+  <script type="text/javascript">
+    // Create nodes data
+    var nodes = new vis.DataSet([
+      { id: 1, label: "Artificial Intelligence", color: { background: '#D2E5FF', border: '#2B7CE9' } },
+      { id: 2, label: "Software Developers", color: { background: '#FFC6AA', border: '#E09A52' } },
+      { id: 3, label: "Software Agents", color: { background: '#C6EFCE', border: '#36A335' } },
+      { id: 4, label: "Agentic IDEs", color: { background: '#E8C6FF', border: '#9C27B0' } },
+      { id: 5, label: "Model Context Protocols", color: { background: '#FFE6CC', border: '#FF9800' } },
+      { id: 6, label: "LLMs", color: { background: '#FFD2F9', border: '#E91E63' } },
+      { id: 7, label: "ChatBots", color: { background: '#FFEAD5', border: '#FF5722' } }
+    ]);
+
+    // Create edges data with labels
+    var edges = new vis.DataSet([
+      { from: 2, to: 1, label: "Create", arrows: "to", color: {color: '#2B7CE9'} },
+      { from: 2, to: 4, label: "Using", arrows: "to", color: {color: '#9C27B0'} },
+      { from: 4, to: 4, label: "Use to Create", arrows: "to", smooth: {type: 'curvedCW', roundness: 0.2}, color: {color: '#9C27B0'} },
+      { from: 4, to: 5, label: "Create", arrows: "to", color: {color: '#FF9800'} },
+      { from: 5, to: 4, label: "Accelerate", arrows: "to", color: {color: '#9C27B0'} },
+      { from: 1, to: 3, label: "Powers", arrows: "to", color: {color: '#36A335'} },
+      { from: 3, to: 4, label: "Enhance", arrows: "to", color: {color: '#9C27B0'} },
+      { from: 6, to: 3, label: "Used By", arrows: "to", color: {color: '#36A335'} },
+      { from: 1, to: 6, label: "Contains", arrows: "to", color: {color: '#E91E63'} },
+      { from: 1, to: 7, label: "Contains", arrows: "to", color: {color: '#FF5722'} },
+      { from: 6, to: 7, label: "Used By", arrows: "to", color: {color: '#FF5722'} }
+    ]);
+
+    // Create the network
+    var container = document.getElementById('mynetwork');
+    var data = {
+      nodes: nodes,
+      edges: edges
+    };
+    
+    // Configuration options
+    var options = {
+      nodes: {
+        shape: 'box',
+        size: 20,
+        font: {
+          size: 16
+        },
+        borderWidth: 2,
+        shadow: true
+      },
+      edges: {
+        font: {
+          size: 12,
+          align: 'middle'
+        },
+        width: 2,
+        shadow: true
+      },
+      physics: {
+        stabilization: false,
+        barnesHut: {
+          gravitationalConstant: -2000,
+          springConstant: 0.04,
+          springLength: 150
+        }
+      },
+      layout: {
+        improvedLayout: true,
+        hierarchical: {
+          enabled: false
+        }
+      }
+    };
+
+    // Initialize the network
+    var network = new vis.Network(container, data, options);
+
+    // Allow users to move nodes for better positioning
+    network.on("stabilizationIterationsDone", function () {
+      network.setOptions({ physics: false });
+    });
+  </script>
+</body>
+</html>
