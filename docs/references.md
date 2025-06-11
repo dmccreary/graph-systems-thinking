@@ -176,8 +176,10 @@ You will receive a certificate of course completion at the conclusion of this co
 
 [MIT Business Dynamics Promo Playlist](https://www.youtube.com/playlist?list=PLKaF-rnKfpxPbREN4H6MhpSMdBqLv0jJ7) - These videos are mostly ads for why system thinking is relevant in some businesses.  on manufacturing, supply chain and services. - not much topics on information systems.  They do talk about feedback, stocks and flows.
 
-[Forrester on Mental Models](https://youtu.be/U6iB1wllDFI) - 14 minute video from 2013 - Excerpt from the Fireside Chat with Jay W. Forrester. Interviewed by John Sterman.
+[Prof. Jay Forrester on Mental Models](https://youtu.be/U6iB1wllDFI) - 14 minute video from 2013 - Excerpt from the Fireside Chat with Jay W. Forrester. Interviewed by John Sterman.
 At the 29th International Conference of the System Dynamics Society. Washington, DC   July 27, 2011
+
+[The Essence of Systems Thinking - Otto Scharmer](https://youtu.be/zjeDGG1VdfE?si=_5yVTF7KdRPtFh4c)
 
 
 
